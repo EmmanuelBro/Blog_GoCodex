@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(../imagenes/android.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+
+body:before{
+      
+    position: fixed;
+    content: "";
+    width: 100%;
+    min-height: 100%;
+    top: 0;
+	left: 0;
+	background: rgba(0,0,0, 0.8);	
+	opacity: 0.3;
+	z-index: -1;
+    
+}
+
+
+.goCodexTema{
+    margin-top: -100px;
+}
+
+.cabeceraPagina{
+    padding-bottom: 50px;
+    font-size: 30px;
+    text-align: center;
+    border-style: solid;
+    border-radius: 0px 0px 0px 0px;
+    border-bottom-style: none;
+    background: rgba(0,0,0, 0.7); 
+    
+}
+
+
+.cabeceraPagina img{
+    width: 13%;  
+    border-radius: 60%;
+    margin-right: 40pc;
+    transition: all .5s;
+    border-style: solid;
+    margin-top: 20px;
+    animation: fadeIn 1s;
+}
+
+
+.cabeceraPagina img:hover{
+     box-shadow: 0px 0px 20px 4px white;
+    animation:   fadeOut 1s;
+    transform: scale(1.1) rotate(-360deg);
+}
+
+@keyframes fadeOut{
+    from{
+        opacity: 0;
+    }
+    
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn{
+    to{
+        opacity: 1;
+    }
+    
+    from{
+        opacity: 0;
+    }
+    
+}
+
+
+.menu{
+    padding: 20px;
+    text-align: center;
+    background: rgba(0,0,0, 0.7); 
+    border-style: none solid solid solid;
+    border-radius: 0px 0px 100px 100px; 
+    
+}
+
+
+
+.menu ul li{
+    font-size: 25px;
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    border-style: solid;
+    margin-right: 30px;
+    border-radius: 15px;
+    transition: all .5s;
+    box-shadow: 0px 0px 10px 4px white;
+    background: rgba(0,0,0, 0.4); 
+}
+
+
+.menu ul li:hover{
+    
+    transition: all .5s;
+    background: white;
+    color: rgb(0, 45, 118);
+    border-color: rgb(0, 45, 118);
+    transform: scale(1.1) translate(10px,-10px); 
+}
+
+.contenido{
+    display: inline-flex;
+    padding: 30px;
+    margin-top: 20px;
+    
+}
+
+
+.articulo{
+    
+    background: rgba(0,0,0, 0.2); 
+    font-size: 20px;
+    text-align: justify;
+    border-style: solid;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 40px;
+    transition: all .5s;
+}
+
+
+.anuncio{
+    
+    background: rgba(0,0,0, 0.2); 
+    font-size: 20px;
+    text-align: center;
+    border-style: solid;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-right: 20px;
+    float: right;
+    padding: 40px
+}
+
+
+.piePagina{
+    
+    margin-top: 40px;
+    font-size: 30px;
+    
+    border-style: solid;
+    border-radius: 60px 60px 0px 0px;
+    background: rgba(0,0,0, 0.7); 
+    padding: 20px;
+    
+
+}
+
+
+.imagenPython{
+    width: 60%;
+    margin: 40px 0px 40px 0px;
+    border-radius: 20px;
+    border-style: dotted;
+    border-color: white;
+}
+
+
+.imagenBrack{
+    width: 60%; 
+    margin: 20px;
+    border-radius: 90px;
+    border-style: dotted
+}
+
+
+
+.piePagina ul li{
+    list-style: none;
+    display:  inline-block;
+    margin-top: 20px;
+}
+
+.menuPagina{
+    padding: 20px;
+}
+
+.menuPagina li:last-child{
+
+    float: right;
+}
+
+.menuPagina ul li img{
+    width: 60px;
+    transition: all .3s;
+    opacity: 0.8;
+}
+
+.menuPagina ul li img:hover{
+
+    opacity: 1;
+    transform: scale(1.5); 
+    transition: all .3s;
+}
+
+
+
+
+/*Estilos CSS3 para javascript y generar nuestro sticky Header*/
+
+
+.menuPegajoso{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transition: all 1s;
+    background: rgba(0,0,0, 1);
+    border-color: black;
+}
+
+
+.menuPegajoso ul li{
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
